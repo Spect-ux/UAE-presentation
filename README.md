@@ -5,7 +5,7 @@ An interactive educational website about the United Arab Emirates, created for *
 ---
 ## 📷 Screenshot
 
-![UAE Website Screenshot](screenshot-home.png)
+![UAE Website Screenshot](Screenshot-home.png)
 
 ---
 
