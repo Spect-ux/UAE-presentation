@@ -37,6 +37,7 @@ An interactive educational website about the United Arab Emirates, created for *
 
 Check out the live website on GitHub Pages:
 
+https://spect-ux.github.io/UAE-presentation/
 
 ---
 
