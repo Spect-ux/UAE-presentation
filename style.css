@@ -63,6 +63,7 @@ nav a:hover{
   color:var(--muted);
 }
 
+/* Large top image used in some pages */
 .section img{
   display:block;
   width:100%;
@@ -72,20 +73,35 @@ nav a:hover{
   box-shadow:0 14px 35px rgba(0,0,0,.15);
 }
 
-/* Cards */
+/* Grid layout */
 .cards,
 .timeline{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:1.8rem;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:2rem;
   margin-top:3rem;
 }
 
+/* NEW: Culture item = big image + small card */
+.culture-item{
+  text-align:center;
+}
+
+.culture-item img{
+  width:100%;
+  height:280px;          /* Big image height */
+  object-fit:cover;
+  border-radius:16px;
+  margin-bottom:1rem;
+  box-shadow:0 14px 35px rgba(0,0,0,.15);
+}
+
+/* Card styling */
 .card,
 .timeline-card{
   background:white;
   border-radius:16px;
-  padding:1.8rem;
+  padding:1.3rem;        /* Smaller card */
   text-align:center;
   box-shadow:0 10px 30px rgba(0,0,0,.08);
   transition:transform .3s ease, box-shadow .3s ease;
@@ -93,13 +109,14 @@ nav a:hover{
 
 .card:hover,
 .timeline-card:hover{
-  transform:translateY(-8px);
-  box-shadow:0 20px 40px rgba(0,0,0,.12);
+  transform:translateY(-6px);
+  box-shadow:0 18px 35px rgba(0,0,0,.12);
 }
 
 .card h3,
 .timeline-card h3{
   color:var(--red);
+  margin-bottom:.5rem;
 }
 
 /* Footer */
@@ -109,15 +126,4 @@ footer{
   text-align:center;
   padding:3rem 1rem;
   font-size:.9rem;
-}
-
-/* Make images inside cards consistent and avoid distortion */
-.cards img,
-.card img {
-  width: 100%;           /* fill the grid cell width */
-  height: 180px;         /* visible thumbnail height — adjust as needed */
-  object-fit: cover;     /* crop to fill without stretching */
-  display: block;
-  border-radius: 12px;   /* optional: match card corners */
-  box-shadow: 0 10px 30px rgba(0,0,0,.08);
 }
