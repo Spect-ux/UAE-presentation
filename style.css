@@ -74,13 +74,25 @@ nav a:hover{
 }
 
 /* Grid layout */
-.cards,
+.cards{
+  display:flex;
+  flex-direction:column;
+  gap:2.5rem;
+  margin-top:3rem;
+}
+
 .timeline{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
   gap:2rem;
   margin-top:3rem;
 }
+
+.culture-item{
+  max-width:800px;
+  margin:0 auto;
+}
+
 
 /* NEW: Culture item = big image + small card */
 .culture-item{
@@ -127,3 +139,4 @@ footer{
   padding:3rem 1rem;
   font-size:.9rem;
 }
+
