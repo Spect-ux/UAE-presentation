@@ -113,7 +113,7 @@ nav a:hover{
 .timeline-card{
   background:white;
   border-radius:16px;
-  padding:1.6rem;        /* Smaller card */
+  padding:1.9rem;        /* Smaller card */
   text-align:center;
   box-shadow:0 10px 30px rgba(0,0,0,.08);
   transition:transform .3s ease, box-shadow .3s ease;
@@ -139,6 +139,7 @@ footer{
   padding:3rem 1rem;
   font-size:.9rem;
 }
+
 
 
 
