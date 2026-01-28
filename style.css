@@ -100,7 +100,7 @@ nav a:hover{
 }
 
 .culture-item img{
-  width:150%;
+  width:120%;
   height:520px;          /* Big image height */
   object-fit:cover;
   border-radius:16px;
@@ -139,6 +139,7 @@ footer{
   padding:3rem 1rem;
   font-size:.9rem;
 }
+
 
 
 
